@@ -1,0 +1,318 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3051782933,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User want to search sosmed",
+        "description": "",
+        "id": "searching-google;user-want-to-search-sosmed;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 95514825,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2868200672,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User open google web",
+            "match": {
+              "location": "SearchingStep.userOpenGoogleWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6632087508,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User type the keyword \"@twitter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@twitter",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchingStep.userTypeTheKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 117501,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User want to check the result \"@twitter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@twitter",
+                  "offset": 31
+                }
+              ],
+              "location": "SearchingStep.userWantToCheckTheResult(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 1,
+            "name": "@SearchingGoogle"
+          },
+          {
+            "line": 4,
+            "name": "@sosmed"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1356424401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User want to search sosmed",
+        "description": "",
+        "id": "searching-google;user-want-to-search-sosmed;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 75678013,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2901781711,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User open google web",
+            "match": {
+              "location": "SearchingStep.userOpenGoogleWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6908590468,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User type the keyword \"@facebook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@facebook",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchingStep.userTypeTheKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 132632,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User want to check the result \"@facebook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@facebook",
+                  "offset": 31
+                }
+              ],
+              "location": "SearchingStep.userWantToCheckTheResult(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 1,
+            "name": "@SearchingGoogle"
+          },
+          {
+            "line": 4,
+            "name": "@sosmed"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1427863903,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User want to search sosmed",
+        "description": "",
+        "id": "searching-google;user-want-to-search-sosmed;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 64847193,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2134117105,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User open google web",
+            "match": {
+              "location": "SearchingStep.userOpenGoogleWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7362455609,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User type the keyword \"@instagram\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@instagram",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchingStep.userTypeTheKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 188627,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User want to check the result \"@instagram\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@instagram",
+                  "offset": 31
+                }
+              ],
+              "location": "SearchingStep.userWantToCheckTheResult(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 1,
+            "name": "@SearchingGoogle"
+          },
+          {
+            "line": 4,
+            "name": "@sosmed"
+          }
+        ]
+      }
+    ],
+    "name": "Searching Google",
+    "description": "",
+    "id": "searching-google",
+    "keyword": "Feature",
+    "uri": "Searching.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SearchingGoogle"
+      }
+    ]
+  }
+]
